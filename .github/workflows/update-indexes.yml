@@ -23,7 +23,7 @@ jobs:
 
       - name: Run index generation scripts
         run: |
-          python scripts/generate_calculator_index.py
+          python scripts/generate_calculators_index.py
           python scripts/generate_pages_index.py
 
       - name: Commit and push changes
