@@ -1,0 +1,54 @@
+name: Build and Deploy JupyterLite Site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-lite:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install JupyterLite
+        run: |
+          pip install jupyterlite
+
+      - name: Clean build folders
+        run: |
+          rm -rf content _output docs/lite
+
+      - name: Copy notebooks into content/
+        run: |
+          mkdir -p content/calculators
+          cp -r calculators/* content/calculators/
+
+      - name: Build JupyterLite site
+        run: |
+          jupyter lite build
+
+      - name: Copy build to docs/lite/
+        run: |
+          mkdir -p docs/lite
+          cp -r _output/* docs/lite/
+
+      - name: Commit and push updated lite site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "kneead-bot"
+          git config user.email "kneead-bot@users.noreply.github.com"
+          git add docs/lite
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit"
+          else
+            git commit -m "🔁 Auto-rebuild JupyterLite site"
+            git push origin HEAD:main
