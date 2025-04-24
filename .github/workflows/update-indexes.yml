@@ -26,13 +26,19 @@ jobs:
           python scripts/generate_calculators_index.py
           python scripts/generate_pages_index.py
 
-      - name: Commit and push changes
+      - name: Commit and push changes if needed
         env:
           GITHUB_TOKEN: ${{ secrets.KNEEAD_PAT }}
         run: |
           git config user.name "kneead-bot"
           git config user.email "kneead-bot@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
+
           git add docs/calculators_index.md docs/pages_index.md
-          git commit -m "🔁 Auto-update calculator and page indexes" || echo "No changes to commit"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "✅ Indexes are up to date — nothing to commit."
+          else
+            git commit -m "🔁 Auto-update calculator and page indexes"
+            git push
+          fi
