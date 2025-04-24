@@ -1,0 +1,35 @@
+name: Auto Update Indexes
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  update-indexes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+
+      - name: Run index generation scripts
+        run: |
+          python scripts/generate_calculator_index.py
+          python scripts/generate_pages_index.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "kneead-bot"
+          git config user.email "kneead-bot@users.noreply.github.com"
+          git add docs/calculators_index.md docs/pages_index.md
+          git commit -m "🔁 Auto-update calculator and page indexes" || echo "No changes to commit"
+          git push
