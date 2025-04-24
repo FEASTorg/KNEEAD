@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.sqlite3
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# VS Code or other editor settings
+.vscode/
+*.code-workspace
+
+# JupyterLite build files
+_output/
+.jupyterlite.doit.db
+content/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
