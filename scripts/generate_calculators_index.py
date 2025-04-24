@@ -2,7 +2,7 @@ from pathlib import Path
 
 calc_root = Path("calculators")
 output_md = Path("docs/calculators_index.md")
-jupyterlite_base_url = "lite/index.html?path=calculators"
+jupyterlite_base_url = "lite/lab/index.html?path=calculators"
 
 with output_md.open("w", encoding="utf-8") as f:
     f.write("# 📟 Calculator Index\n\n")
