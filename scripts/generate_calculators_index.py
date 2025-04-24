@@ -5,7 +5,7 @@ output_md = Path("docs/calculators_index.md")
 jupyterlite_base_url = "lite/lab/index.html?path=calculators"
 
 with output_md.open("w", encoding="utf-8") as f:
-    f.write("# 📟 Calculators Index\n\n")
+    f.write("# 📟 Calculator Index\n\n")
     f.write("Click to open each notebook in the JupyterLite environment:\n\n")
 
     for ipynb in sorted(calc_root.rglob("*.ipynb")):
