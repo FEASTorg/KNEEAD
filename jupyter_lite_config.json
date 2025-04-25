@@ -3,12 +3,6 @@
         "contents": [
             "content"
         ],
-        "output_dir": "_output",
-        "mounts": [
-            {
-                "src": "files",
-                "dest": "/"
-            }
-        ]
+        "output_dir": "_output"
     }
 }

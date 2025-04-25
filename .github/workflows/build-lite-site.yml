@@ -33,7 +33,7 @@ jobs:
               "output_dir": "_output"
             }
           }' > jupyter_lite_config.json
-          cp -r calculators content/
+          cp -r calculators/* content/
 
       - name: Build JupyterLite site
         run: jupyter lite build
