@@ -1,4 +1,4 @@
-# generate_pages_index.py
+# scripts/generate_pages_index.py
 
 from pathlib import Path
 
