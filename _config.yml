@@ -1,0 +1,34 @@
+title: KNEEAD  
+description: >-  
+  KNEEAD — a FEASTorg library of calculators, lookups, and JupyterLite demos.  
+baseurl: "/KNEEAD"   # project pages are served under /KNEEAD  
+url: "https://feastorg.github.io"
+
+# theme + markdown
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# plugins (built-in on GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# don’t accidentally publish source files
+exclude:
+  - .github
+  - calculators
+  - lookups
+  - scripts
+  - *.py
+  - *.ipynb
+
+# front-matter defaults (optional)
+defaults:
+  -
+    scope:
+      path: ""       # all files in docs/
+      type: "pages"
+    values:
+      layout: "page"
