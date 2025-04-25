@@ -15,10 +15,7 @@ with output_md.open("w", encoding="utf-8") as f:
             continue
 
         name = ipynb.stem.replace("_", " ").title()
-
-        # Since notebooks will be at root of content, no calculators/ prefix in path
         rel_path = ipynb.relative_to(calc_root).as_posix()
-
-        # Final URL: ./lite/lab/index.html?path=calc_xyz/calc_xyz.ipynb
-        jlite_link = f"./{jupyterlite_base_url}{rel_path}"
+        # <-- prepend 'calculators/'
+        jlite_link = f"./{jupyterlite_base_url}calculators/{rel_path}"
         f.write(f"- [{name}]({jlite_link})\n")

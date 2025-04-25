@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -23,25 +22,19 @@ jobs:
 
       - name: Clean build folders
         run: |
-          rm -rf content _output docs/lite
+          rm -rf _output docs/lite
 
-      - name: Add JupyterLite build config and copy notebooks
+      - name: Write build config
         run: |
-          echo '{
-          "LiteBuildConfig": {
-          "output_dir": "_output",
-          "contents": ["content"],
-          "base_url": "/KNEEAD/",
-          "mounts": [
-              {
-              "src": "files",
-              "dest": "/"
-              }
-          ]
+          cat > jupyter_lite_config.json << 'EOF'
+          {
+            "LiteBuildConfig": {
+              "contents": ["calculators"],
+              "output_dir": "_output",
+              "extra_ignore_contents": ["**/__pycache__"]
+            }
           }
-          }' > jupyter_lite_config.json
-          mkdir -p content
-          cp -r calculators/* content/
+          EOF
 
       - name: Build JupyterLite site
         run: jupyter lite build

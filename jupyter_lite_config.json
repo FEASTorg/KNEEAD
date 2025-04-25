@@ -1,15 +1,11 @@
 {
     "LiteBuildConfig": {
-        "output_dir": "_output",
         "contents": [
-            "content"
+            "calculators"
         ],
-        "base_url": "/KNEEAD/",
-        "mounts": [
-            {
-                "src": "files",
-                "dest": "/"
-            }
+        "output_dir": "_output",
+        "extra_ignore_contents": [
+            "**/__pycache__"
         ]
     }
 }
