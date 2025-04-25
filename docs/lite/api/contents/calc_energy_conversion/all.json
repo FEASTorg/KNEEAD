@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T03:43:40.071956Z",
+      "created": "2025-04-25T16:00:44.793126Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T03:43:27.007998Z",
+      "last_modified": "2025-04-25T16:00:09.191173Z",
       "mimetype": null,
       "name": "calc_energy_conversion.ipynb",
       "path": "calc_energy_conversion/calc_energy_conversion.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T03:43:40.071956Z",
+  "created": "2025-04-25T16:00:44.793126Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T03:43:40.071956Z",
+  "last_modified": "2025-04-25T16:00:44.793126Z",
   "mimetype": null,
   "name": "calc_energy_conversion",
   "path": "calc_energy_conversion",
