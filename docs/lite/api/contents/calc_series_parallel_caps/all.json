@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T16:21:30.601060Z",
+      "created": "2025-04-25T16:29:33.962388Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T16:20:50.102113Z",
+      "last_modified": "2025-04-25T16:28:56.527182Z",
       "mimetype": null,
       "name": "calc_series_parallel_caps.ipynb",
       "path": "calc_series_parallel_caps/calc_series_parallel_caps.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T16:21:30.601060Z",
+  "created": "2025-04-25T16:29:33.962388Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T16:21:30.601060Z",
+  "last_modified": "2025-04-25T16:29:33.962388Z",
   "mimetype": null,
   "name": "calc_series_parallel_caps",
   "path": "calc_series_parallel_caps",

@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T16:21:30.596060Z",
+      "created": "2025-04-25T16:29:33.958388Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T16:20:50.102113Z",
+      "last_modified": "2025-04-25T16:28:56.526182Z",
       "mimetype": null,
       "name": "calc_inductance_conversion.ipynb",
       "path": "calc_inductance_conversion/calc_inductance_conversion.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T16:21:30.596060Z",
+  "created": "2025-04-25T16:29:33.958388Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T16:21:30.596060Z",
+  "last_modified": "2025-04-25T16:29:33.958388Z",
   "mimetype": null,
   "name": "calc_inductance_conversion",
   "path": "calc_inductance_conversion",
