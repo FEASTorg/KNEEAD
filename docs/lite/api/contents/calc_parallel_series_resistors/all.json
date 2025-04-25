@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T20:44:44.895278Z",
+      "created": "2025-04-25T20:49:46.831647Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T20:44:09.837164Z",
+      "last_modified": "2025-04-25T20:49:11.001023Z",
       "mimetype": null,
       "name": "calc_parallel_series_resistors.ipynb",
       "path": "calc_parallel_series_resistors/calc_parallel_series_resistors.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T20:44:44.895278Z",
+  "created": "2025-04-25T20:49:46.831647Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T20:44:44.895278Z",
+  "last_modified": "2025-04-25T20:49:46.831647Z",
   "mimetype": null,
   "name": "calc_parallel_series_resistors",
   "path": "calc_parallel_series_resistors",
