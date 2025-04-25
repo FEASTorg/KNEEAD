@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T16:29:33.960388Z",
+      "created": "2025-04-25T16:37:12.178046Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T16:28:56.527182Z",
+      "last_modified": "2025-04-25T16:36:37.707024Z",
       "mimetype": null,
       "name": "calc_pcb_trace_width.ipynb",
       "path": "calc_pcb_trace_width/calc_pcb_trace_width.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T16:29:33.960388Z",
+  "created": "2025-04-25T16:37:12.178046Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T16:29:33.960388Z",
+  "last_modified": "2025-04-25T16:37:12.178046Z",
   "mimetype": null,
   "name": "calc_pcb_trace_width",
   "path": "calc_pcb_trace_width",
