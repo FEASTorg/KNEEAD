@@ -2,7 +2,7 @@
     "LiteBuildConfig": {
         "contents": [
             "calculators",
-            "demo"
+            "demos"
         ],
         "output_dir": "_output",
         "extra_ignore_contents": [
