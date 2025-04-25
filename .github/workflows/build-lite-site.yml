@@ -28,10 +28,11 @@ jobs:
       - name: Add JupyterLite build config and copy notebooks
         run: |
           echo '{
-            "LiteBuildConfig": {
+              "LiteBuildConfig": {
+              "output_dir": "_output",
               "contents": ["content"],
-              "output_dir": "_output"
-            }
+              "base_url": "/KNEEAD/"
+              }
           }' > jupyter_lite_config.json
           mkdir -p content
           cp -r calculators/* content/
