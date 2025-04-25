@@ -61,3 +61,7 @@ Follow these steps in any PCB design:
 
 15. **Release for prototype manufacturing**  
     Formally prepare and release the finalized files for prototype PCB fabrication, validating the design before proceeding to mass production.
+
+## Other Tips
+
+- Use a coarser grid when doing your final pass / clean up to help align things

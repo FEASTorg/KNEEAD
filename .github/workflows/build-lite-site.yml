@@ -10,21 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: "3.11"
 
-      - name: Install JupyterLite & indexing deps
+      - name: Install dependencies
         run: |
-          pip install jupyterlite jupyter_server jupyterlab_server jupyterlite-pyodide-kernel
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Clean build folders
         run: rm -rf _output docs/lite
 
-      - name: Write build config
+      - name: Write JupyterLite build config
         run: |
           cat > jupyter_lite_config.json << 'EOF'
           {
@@ -39,7 +41,7 @@ jobs:
       - name: Build JupyterLite site
         run: jupyter lite build
 
-      - name: Copy build to docs/lite/
+      - name: Copy build into docs/lite/
         run: |
           mkdir -p docs/lite
           cp -r _output/* docs/lite/

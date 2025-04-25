@@ -1,28 +1,98 @@
-# Python
+# --- Python bytecode and caches ---
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*$py.class
+
+# --- Python packaging/build ---
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
 *.egg
 *.egg-info/
-*.sqlite3
+MANIFEST
 
-# Jupyter notebooks checkpoints
-.ipynb_checkpoints/
+# --- Python virtual environments and tools ---
+.Python
+.python-version
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
 
-# VS Code or other editor settings
+# --- PyInstaller ---
+*.manifest
+*.spec
+
+# --- Installer logs ---
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Unit test / coverage reports ---
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# --- Translations ---
+*.mo
+*.pot
+
+# --- Scrapy ---
+.scrapy/
+
+# --- Sphinx and MkDocs documentation ---
+docs/_build/
+site/
+
+# --- PyBuilder ---
+target/
+
+# --- IDE / Editor settings ---
 .vscode/
 *.code-workspace
+.spyderproject
+.spyproject
+.ropeproject
+.mr.developer.cfg
+.project
+.pydevproject
 
-# JupyterLite build files
+# --- OS / backup files ---
+.DS_Store
+Thumbs.db
+*~
+*.bak
+
+# --- Node/Yarn ---
+node_modules/
+.yarn-packages/
+*.bundle.*
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.sqlite3
+
+# --- JupyterLite ---
 _output/
 .jupyterlite.doit.db
 content/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Backup files
-*~
-*.bak
