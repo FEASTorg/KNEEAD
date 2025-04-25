@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T16:00:44.795126Z",
+      "created": "2025-04-25T16:09:49.633453Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T16:00:09.192173Z",
+      "last_modified": "2025-04-25T16:09:15.998136Z",
       "mimetype": null,
       "name": "calc_ohms_law.ipynb",
       "path": "calc_ohms_law/calc_ohms_law.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T16:00:44.795126Z",
+  "created": "2025-04-25T16:09:49.633453Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T16:00:44.795126Z",
+  "last_modified": "2025-04-25T16:09:49.633453Z",
   "mimetype": null,
   "name": "calc_ohms_law",
   "path": "calc_ohms_law",
