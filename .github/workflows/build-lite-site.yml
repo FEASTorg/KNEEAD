@@ -17,12 +17,12 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install JupyterLite
-        run: pip install jupyterlite
+      - name: Install JupyterLite & indexing deps
+        run: |
+          pip install jupyterlite jupyter_server jupyterlab_server
 
       - name: Clean build folders
-        run: |
-          rm -rf _output docs/lite
+        run: rm -rf _output docs/lite
 
       - name: Write build config
         run: |
@@ -31,7 +31,7 @@ jobs:
             "LiteBuildConfig": {
               "contents": ["calculators"],
               "output_dir": "_output",
-              "extra_ignore_contents": ["**/__pycache__"]
+              "extra_ignore_contents": ["(^|/)(__pycache__)($|/)"]
             }
           }
           EOF
