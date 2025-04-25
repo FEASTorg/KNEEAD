@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.153130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.691329Z",
+      "mimetype": null,
+      "name": "calc_wire_size.ipynb",
+      "path": "calc_wire_size/calc_wire_size.ipynb",
+      "size": 62,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-25T02:28:00.153130Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-25T02:28:00.153130Z",
+  "mimetype": null,
+  "name": "calc_wire_size",
+  "path": "calc_wire_size",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

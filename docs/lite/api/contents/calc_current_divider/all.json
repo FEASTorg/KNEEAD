@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.142130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.688329Z",
+      "mimetype": "text/x-python",
+      "name": "calc_current_divider.py",
+      "path": "calc_current_divider/calc_current_divider.py",
+      "size": 1127,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.142130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.688329Z",
+      "mimetype": "image/png",
+      "name": "current_divider.png",
+      "path": "calc_current_divider/current_divider.png",
+      "size": 7849,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.141130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.688329Z",
+      "mimetype": null,
+      "name": "calc_current_divider.ipynb",
+      "path": "calc_current_divider/calc_current_divider.ipynb",
+      "size": 12452,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-25T02:28:00.142130Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-25T02:28:00.142130Z",
+  "mimetype": null,
+  "name": "calc_current_divider",
+  "path": "calc_current_divider",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

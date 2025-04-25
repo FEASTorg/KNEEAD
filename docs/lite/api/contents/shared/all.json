@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.153130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.692329Z",
+      "mimetype": "text/x-python",
+      "name": "units.py",
+      "path": "shared/units.py",
+      "size": 56,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-25T02:28:00.153130Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-25T02:28:00.153130Z",
+  "mimetype": null,
+  "name": "shared",
+  "path": "shared",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

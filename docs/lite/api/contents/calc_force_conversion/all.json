@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.144130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.689329Z",
+      "mimetype": null,
+      "name": "calc_force_conversion.ipynb",
+      "path": "calc_force_conversion/calc_force_conversion.ipynb",
+      "size": 62,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-25T02:28:00.144130Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-25T02:28:00.144130Z",
+  "mimetype": null,
+  "name": "calc_force_conversion",
+  "path": "calc_force_conversion",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

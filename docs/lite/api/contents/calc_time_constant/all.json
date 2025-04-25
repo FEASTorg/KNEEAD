@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.151130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.691329Z",
+      "mimetype": null,
+      "name": "calc_time_constant.ipynb",
+      "path": "calc_time_constant/calc_time_constant.ipynb",
+      "size": 62,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-25T02:28:00.151130Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-25T02:28:00.151130Z",
+  "mimetype": null,
+  "name": "calc_time_constant",
+  "path": "calc_time_constant",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

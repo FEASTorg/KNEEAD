@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.143130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.689329Z",
+      "mimetype": "text/x-python",
+      "name": "calc_decimal_fraction_conversion.py",
+      "path": "calc_decimal_fraction_conversion/calc_decimal_fraction_conversion.py",
+      "size": 2430,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.143130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.689329Z",
+      "mimetype": null,
+      "name": "calc_decimal_fraction_conversion.ipynb",
+      "path": "calc_decimal_fraction_conversion/calc_decimal_fraction_conversion.ipynb",
+      "size": 9177,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-25T02:28:00.143130Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-25T02:28:00.143130Z",
+  "mimetype": null,
+  "name": "calc_decimal_fraction_conversion",
+  "path": "calc_decimal_fraction_conversion",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.139130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.686329Z",
+      "mimetype": null,
+      "name": "calc_capacitance_conversion.ipynb",
+      "path": "calc_capacitance_conversion/calc_capacitance_conversion.ipynb",
+      "size": 5976,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.139130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.686329Z",
+      "mimetype": "text/x-python",
+      "name": "calc_capacitance_conversion.py",
+      "path": "calc_capacitance_conversion/calc_capacitance_conversion.py",
+      "size": 1025,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.139130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.686329Z",
+      "mimetype": "image/png",
+      "name": "capacitance_conversion_chart.png",
+      "path": "calc_capacitance_conversion/capacitance_conversion_chart.png",
+      "size": 118927,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-25T02:28:00.139130Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-25T02:28:00.139130Z",
+  "mimetype": null,
+  "name": "calc_capacitance_conversion",
+  "path": "calc_capacitance_conversion",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

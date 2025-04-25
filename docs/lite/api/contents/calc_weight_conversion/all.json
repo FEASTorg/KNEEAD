@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.152130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.691329Z",
+      "mimetype": null,
+      "name": "calc_weight_conversion.ipynb",
+      "path": "calc_weight_conversion/calc_weight_conversion.ipynb",
+      "size": 62,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-25T02:28:00.152130Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-25T02:28:00.152130Z",
+  "mimetype": null,
+  "name": "calc_weight_conversion",
+  "path": "calc_weight_conversion",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

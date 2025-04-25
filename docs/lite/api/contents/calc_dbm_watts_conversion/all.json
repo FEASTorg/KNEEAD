@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.142130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.689329Z",
+      "mimetype": null,
+      "name": "calc_dbm_watts_conversion.ipynb",
+      "path": "calc_dbm_watts_conversion/calc_dbm_watts_conversion.ipynb",
+      "size": 89143,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.143130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.689329Z",
+      "mimetype": "text/x-python",
+      "name": "calc_dbm_watts_conversion.py",
+      "path": "calc_dbm_watts_conversion/calc_dbm_watts_conversion.py",
+      "size": 1872,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-25T02:28:00.143130Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-25T02:28:00.143130Z",
+  "mimetype": null,
+  "name": "calc_dbm_watts_conversion",
+  "path": "calc_dbm_watts_conversion",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

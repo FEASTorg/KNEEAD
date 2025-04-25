@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-04-25T02:28:00.151130Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-04-25T02:27:46.691329Z",
+      "mimetype": null,
+      "name": "calc_trace_impedance.ipynb",
+      "path": "calc_trace_impedance/calc_trace_impedance.ipynb",
+      "size": 62,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2025-04-25T02:28:00.151130Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-04-25T02:28:00.151130Z",
+  "mimetype": null,
+  "name": "calc_trace_impedance",
+  "path": "calc_trace_impedance",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
