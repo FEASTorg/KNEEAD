@@ -20,6 +20,7 @@ jobs:
       - name: Install JupyterLite & indexing deps
         run: |
           pip install jupyterlite jupyter_server jupyterlab_server
+          pip install -r requirements.txt
 
       - name: Clean build folders
         run: rm -rf _output docs/lite
