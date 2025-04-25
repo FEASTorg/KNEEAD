@@ -4,6 +4,12 @@
         "contents": [
             "content"
         ],
-        "base_url": "/KNEEAD/"
+        "base_url": "/KNEEAD/",
+        "mounts": [
+            {
+                "src": "files",
+                "dest": "/"
+            }
+        ]
     }
 }
