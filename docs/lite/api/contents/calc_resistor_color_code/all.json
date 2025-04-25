@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T16:09:49.635453Z",
+      "created": "2025-04-25T16:17:17.684189Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T16:09:15.998136Z",
+      "last_modified": "2025-04-25T16:16:40.219723Z",
       "mimetype": null,
       "name": "calc_resistor_color_code.ipynb",
       "path": "calc_resistor_color_code/calc_resistor_color_code.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T16:09:49.635453Z",
+  "created": "2025-04-25T16:17:17.684189Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T16:09:49.635453Z",
+  "last_modified": "2025-04-25T16:17:17.684189Z",
   "mimetype": null,
   "name": "calc_resistor_color_code",
   "path": "calc_resistor_color_code",

@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T16:09:49.637454Z",
+      "created": "2025-04-25T16:17:17.686189Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T16:09:15.998136Z",
+      "last_modified": "2025-04-25T16:16:40.219723Z",
       "mimetype": null,
       "name": "calc_standard_resistor.ipynb",
       "path": "calc_standard_resistor/calc_standard_resistor.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T16:09:49.637454Z",
+  "created": "2025-04-25T16:17:17.685189Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T16:09:49.637454Z",
+  "last_modified": "2025-04-25T16:17:17.685189Z",
   "mimetype": null,
   "name": "calc_standard_resistor",
   "path": "calc_standard_resistor",
