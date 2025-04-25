@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T02:28:00.150130Z",
+      "created": "2025-04-25T02:30:24.369184Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T02:27:46.691329Z",
+      "last_modified": "2025-04-25T02:30:11.381203Z",
       "mimetype": null,
       "name": "calc_temperature_conversion.ipynb",
       "path": "calc_temperature_conversion/calc_temperature_conversion.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T02:28:00.150130Z",
+  "created": "2025-04-25T02:30:24.369184Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T02:28:00.150130Z",
+  "last_modified": "2025-04-25T02:30:24.369184Z",
   "mimetype": null,
   "name": "calc_temperature_conversion",
   "path": "calc_temperature_conversion",
