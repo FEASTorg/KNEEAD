@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T19:17:15.901793Z",
+      "created": "2025-04-25T20:44:44.901278Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T19:16:34.921957Z",
+      "last_modified": "2025-04-25T20:44:09.837164Z",
       "mimetype": null,
       "name": "calc_wire_size.ipynb",
       "path": "calc_wire_size/calc_wire_size.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T19:17:15.901793Z",
+  "created": "2025-04-25T20:44:44.901278Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T19:17:15.901793Z",
+  "last_modified": "2025-04-25T20:44:44.901278Z",
   "mimetype": null,
   "name": "calc_wire_size",
   "path": "calc_wire_size",

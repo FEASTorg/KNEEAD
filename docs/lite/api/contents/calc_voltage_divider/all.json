@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T19:17:15.900794Z",
+      "created": "2025-04-25T20:44:44.900278Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T19:16:34.921957Z",
+      "last_modified": "2025-04-25T20:44:09.837164Z",
       "mimetype": null,
       "name": "calc_voltage_divider.ipynb",
       "path": "calc_voltage_divider/calc_voltage_divider.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T19:17:15.900794Z",
+  "created": "2025-04-25T20:44:44.900278Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T19:17:15.900794Z",
+  "last_modified": "2025-04-25T20:44:44.900278Z",
   "mimetype": null,
   "name": "calc_voltage_divider",
   "path": "calc_voltage_divider",

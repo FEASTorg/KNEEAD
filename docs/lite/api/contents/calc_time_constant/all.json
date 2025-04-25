@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T19:17:15.899794Z",
+      "created": "2025-04-25T20:44:44.899278Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T19:16:34.921957Z",
+      "last_modified": "2025-04-25T20:44:09.837164Z",
       "mimetype": null,
       "name": "calc_time_constant.ipynb",
       "path": "calc_time_constant/calc_time_constant.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T19:17:15.899794Z",
+  "created": "2025-04-25T20:44:44.899278Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T19:17:15.899794Z",
+  "last_modified": "2025-04-25T20:44:44.899278Z",
   "mimetype": null,
   "name": "calc_time_constant",
   "path": "calc_time_constant",
