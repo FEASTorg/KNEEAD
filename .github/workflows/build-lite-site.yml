@@ -26,18 +26,6 @@ jobs:
       - name: Clean build folders
         run: rm -rf _output docs/lite
 
-      - name: Write JupyterLite build config
-        run: |
-          cat > jupyter_lite_config.json << 'EOF'
-          {
-            "LiteBuildConfig": {
-              "contents": ["calculators"],
-              "output_dir": "_output",
-              "extra_ignore_contents": ["(^|/)(__pycache__)($|/)"]
-            }
-          }
-          EOF
-
       - name: Build JupyterLite site
         run: jupyter lite build
 
