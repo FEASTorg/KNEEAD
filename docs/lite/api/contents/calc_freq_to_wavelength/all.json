@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T20:44:44.891278Z",
+      "created": "2025-04-25T20:49:46.829647Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T20:44:09.836164Z",
+      "last_modified": "2025-04-25T20:49:11.000023Z",
       "mimetype": null,
       "name": "calc_freq_to_wavelength.ipynb",
       "path": "calc_freq_to_wavelength/calc_freq_to_wavelength.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T20:44:44.891278Z",
+  "created": "2025-04-25T20:49:46.829647Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T20:44:44.891278Z",
+  "last_modified": "2025-04-25T20:49:46.829647Z",
   "mimetype": null,
   "name": "calc_freq_to_wavelength",
   "path": "calc_freq_to_wavelength",
