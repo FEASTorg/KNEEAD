@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-26T01:15:05.165138Z",
+      "created": "2025-04-26T01:19:19.007741Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-26T01:14:30.074003Z",
+      "last_modified": "2025-04-26T01:18:35.816807Z",
       "mimetype": null,
       "name": "calc_smd_capacitor.ipynb",
       "path": "calc_smd_capacitor/calc_smd_capacitor.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-26T01:15:05.165138Z",
+  "created": "2025-04-26T01:19:19.007741Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-26T01:15:05.165138Z",
+  "last_modified": "2025-04-26T01:19:19.007741Z",
   "mimetype": null,
   "name": "calc_smd_capacitor",
   "path": "calc_smd_capacitor",

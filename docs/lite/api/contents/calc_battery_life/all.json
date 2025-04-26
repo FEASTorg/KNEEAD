@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-26T01:15:05.154138Z",
+      "created": "2025-04-26T01:19:18.997741Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-26T01:14:30.071003Z",
+      "last_modified": "2025-04-26T01:18:35.812807Z",
       "mimetype": "text/x-python",
       "name": "calc_battery_life.py",
       "path": "calc_battery_life/calc_battery_life.py",
@@ -16,11 +16,11 @@
     },
     {
       "content": null,
-      "created": "2025-04-26T01:15:05.154138Z",
+      "created": "2025-04-26T01:19:18.996741Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-26T01:14:30.071003Z",
+      "last_modified": "2025-04-26T01:18:35.812807Z",
       "mimetype": null,
       "name": "calc_battery_life.ipynb",
       "path": "calc_battery_life/calc_battery_life.ipynb",
@@ -29,11 +29,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-26T01:15:05.154138Z",
+  "created": "2025-04-26T01:19:18.997741Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-26T01:15:05.154138Z",
+  "last_modified": "2025-04-26T01:19:18.997741Z",
   "mimetype": null,
   "name": "calc_battery_life",
   "path": "calc_battery_life",
