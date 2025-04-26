@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-26T01:11:39.110631Z",
+      "created": "2025-04-26T01:15:05.165138Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-26T01:11:01.550473Z",
+      "last_modified": "2025-04-26T01:14:30.074003Z",
       "mimetype": null,
       "name": "calc_smd_resistor.ipynb",
       "path": "calc_smd_resistor/calc_smd_resistor.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-26T01:11:39.110631Z",
+  "created": "2025-04-26T01:15:05.165138Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-26T01:11:39.110631Z",
+  "last_modified": "2025-04-26T01:15:05.165138Z",
   "mimetype": null,
   "name": "calc_smd_resistor",
   "path": "calc_smd_resistor",
