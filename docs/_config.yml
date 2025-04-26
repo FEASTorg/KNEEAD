@@ -17,8 +17,8 @@ plugins:
 
 # don’t accidentally publish source files
 exclude:
-  - ".github"
-  - "scripts"
+  - TODO.md
+  - .indexignore
 
 # front-matter defaults (optional)
 defaults:
