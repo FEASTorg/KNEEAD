@@ -17,12 +17,12 @@ plugins:
 
 # don’t accidentally publish source files
 exclude:
-  - .github
-  - calculators
-  - lookups
-  - scripts
-  - *.py
-  - *.ipynb
+  - ".github"
+  - "calculators"
+  - "lookups"
+  - "scripts"
+  - "*.py"
+  - "*.ipynb"
 
 # front-matter defaults (optional)
 defaults:
