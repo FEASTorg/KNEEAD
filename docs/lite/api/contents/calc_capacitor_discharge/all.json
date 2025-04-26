@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-25T20:49:46.824647Z",
+      "created": "2025-04-26T01:00:09.410449Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T20:49:10.999023Z",
+      "last_modified": "2025-04-26T00:59:34.337689Z",
       "mimetype": null,
       "name": "calc_capacitor_discharge.ipynb",
       "path": "calc_capacitor_discharge/calc_capacitor_discharge.ipynb",
@@ -16,11 +16,11 @@
     },
     {
       "content": null,
-      "created": "2025-04-25T20:49:46.825647Z",
+      "created": "2025-04-26T01:00:09.411449Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-25T20:49:10.999023Z",
+      "last_modified": "2025-04-26T00:59:34.337689Z",
       "mimetype": "text/x-python",
       "name": "calc_capacitor_discharge.py",
       "path": "calc_capacitor_discharge/calc_capacitor_discharge.py",
@@ -29,11 +29,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-25T20:49:46.825647Z",
+  "created": "2025-04-26T01:00:09.411449Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-25T20:49:46.825647Z",
+  "last_modified": "2025-04-26T01:00:09.411449Z",
   "mimetype": null,
   "name": "calc_capacitor_discharge",
   "path": "calc_capacitor_discharge",
