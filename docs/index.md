@@ -1,4 +1,4 @@
-# 🧰 KNEEAD Toolkit
+# KNEEAD
 
 Welcome to the FEAST toolkit for electrical & electronic design.
 
