@@ -1,5 +1,3 @@
-# KNEEAD
-
 Welcome to the FEAST toolkit for electrical & electronic design.
 
 - 📚 [Design Docs Index](./pages_index.md)
