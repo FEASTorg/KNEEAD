@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-26T01:21:11.666284Z",
+      "created": "2025-04-26T01:27:30.590762Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-26T01:20:31.530906Z",
+      "last_modified": "2025-04-26T01:26:54.201611Z",
       "mimetype": null,
       "name": "calc_three_phase.ipynb",
       "path": "calc_three_phase/calc_three_phase.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-26T01:21:11.666284Z",
+  "created": "2025-04-26T01:27:30.590762Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-26T01:21:11.666284Z",
+  "last_modified": "2025-04-26T01:27:30.590762Z",
   "mimetype": null,
   "name": "calc_three_phase",
   "path": "calc_three_phase",

@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-26T01:21:11.659284Z",
+      "created": "2025-04-26T01:27:30.582762Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-26T01:20:31.529906Z",
+      "last_modified": "2025-04-26T01:26:54.200611Z",
       "mimetype": "text/x-python",
       "name": "calc_decimal_fraction_conversion.py",
       "path": "calc_decimal_fraction_conversion/calc_decimal_fraction_conversion.py",
@@ -16,11 +16,11 @@
     },
     {
       "content": null,
-      "created": "2025-04-26T01:21:11.659284Z",
+      "created": "2025-04-26T01:27:30.582762Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-26T01:20:31.529906Z",
+      "last_modified": "2025-04-26T01:26:54.200611Z",
       "mimetype": null,
       "name": "calc_decimal_fraction_conversion.ipynb",
       "path": "calc_decimal_fraction_conversion/calc_decimal_fraction_conversion.ipynb",
@@ -29,11 +29,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-26T01:21:11.659284Z",
+  "created": "2025-04-26T01:27:30.582762Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-26T01:21:11.659284Z",
+  "last_modified": "2025-04-26T01:27:30.582762Z",
   "mimetype": null,
   "name": "calc_decimal_fraction_conversion",
   "path": "calc_decimal_fraction_conversion",
