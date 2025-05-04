@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-04-26T23:59:43.089624Z",
+      "created": "2025-05-04T17:27:11.911820Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-04-26T23:59:05.864314Z",
+      "last_modified": "2025-05-04T17:26:34.602580Z",
       "mimetype": null,
       "name": "calc_reactance.ipynb",
       "path": "calc_reactance/calc_reactance.ipynb",
@@ -15,11 +15,11 @@
       "writable": true
     }
   ],
-  "created": "2025-04-26T23:59:43.089624Z",
+  "created": "2025-05-04T17:27:11.911820Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-04-26T23:59:43.089624Z",
+  "last_modified": "2025-05-04T17:27:11.911820Z",
   "mimetype": null,
   "name": "calc_reactance",
   "path": "calc_reactance",
