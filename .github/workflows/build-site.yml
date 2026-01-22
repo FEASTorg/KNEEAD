@@ -42,7 +42,7 @@ jobs:
           bundler-cache: true
 
       - name: Install Jekyll
-        run: gem install jekyll jekyll-feed jekyll-seo-tag
+        run: gem install jekyll jekyll-feed jekyll-seo-tag minima
 
       - name: Build JupyterLite site
         run: |
