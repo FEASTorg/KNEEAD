@@ -1,3 +1,8 @@
+---
+layout: page
+title: KiCad Tools
+---
+
 # KiCad Tools
 
 ## Source Control

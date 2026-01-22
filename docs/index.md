@@ -1,3 +1,8 @@
+---
+layout: home
+title: Home
+---
+
 # Welcome to KNEEAD!
 
 Welcome to the FEAST toolkit for electrical & electronic design.

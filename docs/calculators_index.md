@@ -1,3 +1,8 @@
+---
+layout: page
+title: Calculator Index
+---
+
 # 📟 Calculator Index
 
 Click to open each notebook in JupyterLab:

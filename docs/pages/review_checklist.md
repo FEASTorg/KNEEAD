@@ -1,3 +1,8 @@
+---
+layout: page
+title: Design Review Checklist
+---
+
 # Electronics and electrical design checklist
 
 ## Process

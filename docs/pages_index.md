@@ -1,3 +1,8 @@
+---
+layout: page
+title: Design Document Index
+---
+
 # 📚 Design Document Index
 
 - [Kicad Tools](./pages/kicad_tools.md)

@@ -9,6 +9,10 @@ output_md = Path("docs/calculators_index.md")
 jupyterlite_base = "lite/lab/index.html?path="
 
 with output_md.open("w", encoding="utf-8") as f:
+    f.write("---\n")
+    f.write("layout: page\n")
+    f.write("title: Calculator Index\n")
+    f.write("---\n\n")
     f.write("# 📟 Calculator Index\n\n")
     f.write("Click to open each notebook in JupyterLab:\n\n")
 

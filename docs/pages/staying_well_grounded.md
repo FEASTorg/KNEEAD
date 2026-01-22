@@ -1,3 +1,8 @@
+---
+layout: page
+title: Staying Well Grounded
+---
+
 # Staying Well Grounded
 
 ## References

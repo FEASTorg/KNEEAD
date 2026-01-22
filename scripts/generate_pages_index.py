@@ -8,6 +8,10 @@ output_md = Path("docs/pages_index.md")
 
 # Start writing index
 with output_md.open("w", encoding="utf-8") as f:
+    f.write("---\n")
+    f.write("layout: page\n")
+    f.write("title: Design Document Index\n")
+    f.write("---\n\n")
     f.write("# 📚 Design Document Index\n\n")
 
     for md in sorted(pages_dir.glob("*.md")):

@@ -1,3 +1,8 @@
+---
+layout: page
+title: PCB Layout Procedure and Tips
+---
+
 # Procedure and Tips for Board Layout
 
 **PCB Layout & Routing**  
