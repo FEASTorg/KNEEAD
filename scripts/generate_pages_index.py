@@ -18,5 +18,5 @@ with output_md.open("w", encoding="utf-8") as f:
         if md.name == "index.md":
             continue
         name = md.stem.replace("_", " ").title()
-        rel_link = f"./pages/{md.name}"
+        rel_link = f"./pages/{md.stem}.html"
         f.write(f"- [{name}]({rel_link})\n")
