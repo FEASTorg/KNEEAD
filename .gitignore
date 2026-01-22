@@ -94,6 +94,7 @@ node_modules/
 
 # --- JupyterLite ---
 _output/
+_site/
 .jupyterlite.doit.db
 content/
 debug.log
