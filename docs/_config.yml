@@ -14,6 +14,12 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-relative-links
+
+# enable .md --> .html link conversion
+relative_links:
+  enabled: true
+  collections: true
 
 # don’t accidentally publish source files
 exclude:
