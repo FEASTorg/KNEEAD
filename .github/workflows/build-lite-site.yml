@@ -5,16 +5,28 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build-lite:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -29,21 +41,18 @@ jobs:
       - name: Build JupyterLite site
         run: jupyter lite build
 
-      - name: Copy build into docs/lite/
-        run: |
-          mkdir -p docs/lite
-          cp -r _output/* docs/lite/
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _output
 
-      - name: Commit and push updated lite site
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "kneead-bot"
-          git config user.email "kneead-bot@users.noreply.github.com"
-          git add docs/lite
-          if git diff --cached --quiet; then
-            echo "✅ No changes to commit"
-          else
-            git commit -m "🔁 Auto-rebuild JupyterLite site"
-            git push origin HEAD:main
-          fi
+  deploy:
+    needs: build-lite
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

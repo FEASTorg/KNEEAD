@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-indexes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Regenerate indexes
+        run: |
+          python scripts/generate_calculators_index.py
+          python scripts/generate_pages_index.py
+
+      - name: Check indexes are up-to-date
+        run: |
+          if ! git diff --quiet docs/calculators_index.md docs/pages_index.md; then
+            echo "❌ Index files are out of date. Run 'pre-commit run' locally and commit the changes."
+            git diff docs/calculators_index.md docs/pages_index.md
+            exit 1
+          fi
+          echo "✅ Index files are up-to-date"
