@@ -28,13 +28,6 @@ jupyterlab-geojson>=3.4.0,<4        # GeoJSON file support
 jupyterlab-night                    # Dark theme
 jupyterlab-miami-nights             # "Miami Nights" theme
 
-# ================================
-# Language Packs (Optional)
-# ================================
-
-jupyterlab-language-pack-fr-FR      # French language pack
-jupyterlab-language-pack-zh-CN      # Chinese language pack
-
 # ========================================
 # Widgets & Interactive Plotting (Optional)
 # ========================================
