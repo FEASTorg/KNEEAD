@@ -1,6 +1,8 @@
-# Dev
+# References
 
-jupyterlite docs links:
+This directory contains reference materials and links used in the development of the JupyterLite-based electronics calculators.
+
+## jupyterlite docs links
 
 https://jupyterlite.readthedocs.io/en/stable/howto/content/files.html
 
@@ -8,7 +10,7 @@ https://jupyterlite.readthedocs.io/en/latest/howto/content/share.html
 
 https://jupyterlite.readthedocs.io/en/stable/howto/configure/config_files.html
 
-calculators inspo:
+## calculators inspo
 
 https://www.digikey.ca/en/resources/online-conversion-calculators
 
