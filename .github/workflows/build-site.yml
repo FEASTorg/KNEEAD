@@ -59,7 +59,7 @@ jobs:
           echo "FEAST styling copied successfully"
 
       - name: Install Jekyll
-        run: gem install jekyll jekyll-feed jekyll-seo-tag jekyll-relative-links just-the-docs
+        run: gem install jekyll jekyll-feed jekyll-seo-tag jekyll-relative-links jekyll-titles-from-headings jekyll-include-cache just-the-docs
 
       - name: Build JupyterLite site
         run: |
