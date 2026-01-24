@@ -6,7 +6,8 @@ calc_root = Path("calculators")
 output_md = Path("docs/calculators_index.md")
 
 # deep-link into the Lab UI via ?path=…
-jupyterlite_base = "lite/lab/index.html?path="
+# Use absolute path from site root to avoid 404s on subpages
+jupyterlite_base = "/KNEEAD/lite/lab/index.html?path="
 
 with output_md.open("w", encoding="utf-8") as f:
     f.write("---\n")
@@ -24,6 +25,6 @@ with output_md.open("w", encoding="utf-8") as f:
         name = ipynb.stem.replace("_", " ").title()
         # path *inside* calculators/ → relative to the root of the file-browser
         rel = ipynb.relative_to(calc_root).as_posix()
-        # build the URL exactly like Lab’s “Shareable Link”
-        url = f"./{jupyterlite_base}{rel}"
+        # build the URL as absolute path from site root
+        url = f"{jupyterlite_base}{rel}"
         f.write(f"- [{name}]({url})\n")
