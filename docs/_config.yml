@@ -1,36 +1,70 @@
-title: KNEEAD  
-description: >-  
-  KNEEAD — a FEASTorg library of tools and calculators via JupyterLite.  
-baseurl: "/KNEEAD"   # project pages are served under /KNEEAD  
+title: KNEEAD
+description: >-
+  KNEEAD — a FEASTorg library of tools and calculators via JupyterLite.
+baseurl: "/KNEEAD" # project pages are served under /KNEEAD
 url: "https://feastorg.github.io"
 
+# SEO and metadata
+author: FEASTorg
+lang: en-US
+
+# Social metadata
+social:
+  name: FEASTorg
+  links:
+    - https://github.com/FEASTorg
+
 # theme + markdown
-theme: minima
+theme: just-the-docs
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Just the Docs settings
+repository: https://github.com/FEASTorg/KNEEAD
+color_scheme: feast
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: true
+enable_copy_code_button: true
+heading_anchors: true
+nav_error_report: true
+aux_links:
+  "FEASTorg on GitHub":
+    - "https://github.com/FEASTorg"
+  "KNEEAD on GitHub":
+    - "https://github.com/FEASTorg/KNEEAD"
+aux_links_new_tab: false
 
 # plugins (built-in on GitHub Pages)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-relative-links
+  - jekyll-titles-from-headings
+  - jekyll-include-cache
 
 # enable .md --> .html link conversion
 relative_links:
   enabled: true
   collections: true
 
-# don’t accidentally publish source files
+# Pretty URLs
+permalink: pretty
 exclude:
   - TODO.md
   - .indexignore
 
 # front-matter defaults (optional)
 defaults:
-  -
-    scope:
-      path: ""       # all files in docs/
+  - scope:
+      path: "" # all files in docs/
       type: "pages"
     values:
-      layout: "page"
+      layout: "default"

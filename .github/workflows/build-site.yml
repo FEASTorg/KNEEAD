@@ -38,11 +38,28 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: "3.1"
           bundler-cache: true
 
+      - name: Pull FEAST styling
+        run: |
+          # Clone just the _sass directory from FEASTorg.github.io
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/FEASTorg/FEASTorg.github.io.git /tmp/feast-hub
+          cd /tmp/feast-hub
+          git sparse-checkout set _sass
+          git checkout
+          # Verify _sass was checked out
+          if [ ! -d "_sass" ]; then
+            echo "Error: _sass directory not found after sparse checkout"
+            exit 1
+          fi
+          # Copy FEAST styles into KNEEAD
+          mkdir -p ${{ github.workspace }}/docs/_sass
+          cp -r _sass/* ${{ github.workspace }}/docs/_sass/
+          echo "FEAST styling copied successfully"
+
       - name: Install Jekyll
-        run: gem install jekyll jekyll-feed jekyll-seo-tag jekyll-relative-links minima
+        run: gem install jekyll jekyll-feed jekyll-seo-tag jekyll-relative-links just-the-docs
 
       - name: Build JupyterLite site
         run: |
