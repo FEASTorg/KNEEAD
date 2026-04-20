@@ -1,18 +1,18 @@
 title: KNEEAD
 description: >-
-  KNEEAD — a FEASTorg library of tools and calculators via JupyterLite.
+  KNEEAD — a feastorg library of tools and calculators via JupyterLite.
 baseurl: "/KNEEAD" # project pages are served under /KNEEAD
 url: "https://feastorg.github.io"
 
 # SEO and metadata
-author: FEASTorg
+author: feastorg
 lang: en-US
 
 # Social metadata
 social:
-  name: FEASTorg
+  name: feastorg
   links:
-    - https://github.com/FEASTorg
+    - https://github.com/feastorg
 
 # theme + markdown
 theme: just-the-docs
@@ -21,7 +21,7 @@ kramdown:
   input: GFM
 
 # Just the Docs settings
-repository: https://github.com/FEASTorg/KNEEAD
+repository: https://github.com/feastorg/KNEEAD
 color_scheme: feast
 search_enabled: true
 search:
@@ -36,10 +36,10 @@ enable_copy_code_button: true
 heading_anchors: true
 nav_error_report: true
 aux_links:
-  "FEASTorg on GitHub":
-    - "https://github.com/FEASTorg"
+  "feastorg on GitHub":
+    - "https://github.com/feastorg"
   "KNEEAD on GitHub":
-    - "https://github.com/FEASTorg/KNEEAD"
+    - "https://github.com/feastorg/KNEEAD"
 aux_links_new_tab: false
 
 # plugins (built-in on GitHub Pages)

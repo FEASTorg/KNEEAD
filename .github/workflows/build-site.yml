@@ -43,8 +43,8 @@ jobs:
 
       - name: Pull FEAST styling
         run: |
-          # Clone just the _sass directory from FEASTorg.github.io
-          git clone --depth 1 --filter=blob:none --sparse https://github.com/FEASTorg/FEASTorg.github.io.git /tmp/feast-hub
+          # Clone just the _sass directory from feastorg.github.io
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/feastorg/feastorg.github.io.git /tmp/feast-hub
           cd /tmp/feast-hub
           git sparse-checkout set _sass
           git checkout
