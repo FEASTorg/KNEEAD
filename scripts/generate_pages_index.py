@@ -17,6 +17,6 @@ with output_md.open("w", encoding="utf-8") as f:
     for md in sorted(pages_dir.glob("*.md")):
         if md.name == "index.md":
             continue
-        name = md.stem.replace("_", " ").title()
+        name = md.stem.replace("-", " ").title()
         rel_link = f"./pages/{md.name}"
         f.write(f"- [{name}]({rel_link})\n")
